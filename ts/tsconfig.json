@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {//编译器选项；
+      "target": "es5",//——编译目标，如这里编译为es5代码；
+      "module": "amd",//——处理独立文件时的模块加载方式；
+      "sourceMap": true
+    },
+    "exclude": [
+      "node_modules",
+      "typings/main",
+      "typings/main.d.ts"
+    ]
+  }
